@@ -1,7 +1,7 @@
 {
   "name": "node-love",
-  "version": "1.0.0",
-  "description": "This module returns a heart and can be used as a function or a string",
+  "version": "1.0.1",
+  "description": "This module returns a heart",
   "keywords": [],
   "author": "reconbot <wizard@roborooter.com>",
   "repository": "git://github.com/reconbot/node-love.git",
