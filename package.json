@@ -1,0 +1,44 @@
+{
+  "name": "node-love",
+  "version": "1.0.0",
+  "description": "This module returns a heart and can be used as a function or a string",
+  "keywords": [],
+  "author": "reconbot <wizard@roborooter.com>",
+  "repository": "git://github.com/reconbot/node-love.git",
+  "main": "index",
+  "homepage": "https://github.com/reconbot/node-love",
+  "contributors": [{
+    "name": "reconbot"
+  }],
+  "bugs": {
+    "url": "https://github.com/reconbot/node-love/issues",
+    "email": "wizard@roborooter.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/reconbot/node-love/raw/master/LICENSE"
+  }],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}

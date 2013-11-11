@@ -1,0 +1,2 @@
+// Node Love
+module.exports = '♥';
